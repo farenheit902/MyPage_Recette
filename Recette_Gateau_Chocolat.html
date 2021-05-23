@@ -1,0 +1,108 @@
+
+           <!-- Indique que le langage est du html-->
+           <!DOCTYPE html>
+           <!-- Le contenu de ma Page-->
+           <!--    Balise "html" contient une propriété -->
+           <!-- Indique au moteur de recherche que la langue est du français-->
+           <html lang="fr">
+
+               <head>
+                   <title>Recette Gateau Chocolat</title>
+                   <!-- Cette baslise indique que le format d'encocage est de l'UTF 8 -->
+                   <!--  Il faudra reprendre cette configuration pour les toutes les pages -->
+                   <!--  ( "UTF-8"  ==> Permet une traduction du code sur TOUT les navigateurs )-->
+                   <!-- Balise "meta" qui contient une propriété : il n'y a pas de balise fin -->
+                   <meta charset="UTF-8">
+
+                   <!--   Début code CSS -->
+                   <!--   ( on applique le style CSS à tout le document puisque que l'on est dans l'entête )-->
+                   
+                   <!-- On indique un fichier contenant les données css-->
+                   <!-- remarque : on aurait pu mettre un lien web -->
+                   <!-- ici, le fichier est local => pas la peine d'indiquer un répertoire-->
+                   <link rel="stylesheet" href="recette.css"/>
+                  
+               </head>
+
+                 <body>
+
+                   <!-- Titre recette -->  
+                   <div class="Titre_Recette"></div>
+                   <p class="Position_Recette">Recette</p>
+
+                     <!-- On cré un bloc dans le corops ("BODY") avec le ("DIV")-->
+               <div class="contenu">
+
+                     <!--Insertion de la propriété d'alignement sur du texte--> 
+                     <!--  "align" est une propriété -->
+                     <h1 text-align="center" ; class="Titre">gateau au chocolat</h1>
+
+                     <br>
+
+                     <div class="description">
+                     <p class="description">
+                       Cette recette classisque au chaocolat fera plaisir à
+                         tout le monde, les petits comme les grands  !
+                       </p>
+
+                       </div>
+                     <br>
+  <!-- Récupérer une image avec le lien web (ihnibé poour le cours CSS )-->
+  <!--  <img src="https://img-3.journaldesfemmes.fr/SJFZyJHkjBgBrG72GtYHVo9SKc0=/750x/smart/c114ec8c991f4a518d37be4d35675fe9/recipe-jdf/370167.jpg"   -->
+
+        <!-- Récupérer une local  -->
+         <img src="Gateau_Image">
+
+              <br>
+                     <table border=1>
+                           <!-- On insère une ligne-->
+                           <tr>
+                               <!-- On insère une entête -->
+                               <th>Difficulté</th>
+                               <th>Préparation</th>
+                               <th>Temps de cuisson</th>
+                               <th>Temps total</th>
+                           </tr>
+
+                           <!-- On insère une ligne-->
+                             <tr>
+                             <!-- On insère des données-->
+                               <td>Facile</td>
+                               <td>10 min</td>
+                               <td>25 minutes</td>
+                               <td>35 minutes</td>
+                             </tr>
+                         </table>
+
+                       <br>
+                       <br>
+
+                     <!--Les ingredients-->
+                     <h2 >Ingrédients</h2>
+                     <!--Unordered list (ul)-->
+                     <ul>
+                       
+                         <li>Chocolat noir : 200 g </li>
+                         <li>Sucre : 150 g         </li>
+                         <li>Beurre : 200 g        </li> 
+                         <li>Oeuf : 4              </li> 
+                         <li>Farine : 80 g         </li> 
+                       
+                     </ul>
+
+                     
+                     <!--Préparation-->
+                     <h2 >Préparation</h2>
+                     <!--Unordered list (ul)-->
+                     <ol>
+                         <li>Faire fondre le chocolat avec le beurre </li>
+                         <li>Mélanger le sucre, les oeufs et la farine </li>
+                         <li>Mélanger le toput pour faire une pâte</li>
+                         <li>Mettre au four</li>
+                     </ol>
+
+                   </div>  
+
+                 </body>
+
+           </html>
